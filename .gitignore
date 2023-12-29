@@ -1,0 +1,33 @@
+# Ignore compiled binaries
+*.o
+*.out
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore dependencies (assumes using a package manager like npm or yarn)
+node_modules/
+vendor/
+
+# Ignore build output
+/build/
+
+# Ignore configuration files that may contain sensitive information
+config.js
+config.json
+
